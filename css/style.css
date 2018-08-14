@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+   margin: auto;
+
+}
+body {
+    background-color: black;
+}
+header{
+    height: 9.4em;
+    border: 1px white solid;
+    background-color: #002301; /*#0B1F08*/
+}
+ 
+
+.encabezado1, .encabezado2, .encabezado3 {
+   float: left;
+   color: white;
+  /* border:  1px solid white;*/
+   padding: 10px;
+   box-sizing: border-box;
+}
+ .encabezado1 {
+    padding: 0; 
+    margin:0;
+     position: relative;
+     top: 0;
+     left: 0;
+ }
+.encabezado2 {
+    width: 60%; 
+    height: 176px;
+    padding:0;
+ }
+
+ .negro, .and, .blanco {
+    float: left;
+    
+    padding: 0;
+
+    /*border: 1px solid white;*/
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 60px;
+    padding: 0;
+ }
+ .negro {
+    width: 20%;
+    height: 50px;
+    margin-left: 20%;
+ }
+ .and {
+    width: 20%;
+    height: 50px;
+ }
+ a {
+     color: #ffffff;
+     text-decoration: none;
+     font-size: 18px;
+ }
+a:hover {
+    color: #3e499b;
+}
+ 
+
+.encabezado3 {
+    width: 25%; 
+}
