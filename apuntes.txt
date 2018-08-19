@@ -1,0 +1,1 @@
+agregar display flex y verificar que pasa con el fondo de pantalla y modificar el slide con el display flex
