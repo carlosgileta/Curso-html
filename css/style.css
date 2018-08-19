@@ -77,41 +77,50 @@ a:hover {
     background-color: #ffffff;
     height: 500px;
 }*/
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 .container-slide {
     display:flex;
+    height: 487px;
     justify-content: center;
-    background-image: url("../img/fondoslide612x612.jpg");
+    background-image: url("../img/imagenescocia.JPG");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
        
 }
-.w3-content_w3-display-container .mySlides {
+/*.w3-content_w3-display-container .mySlides {
    
-    /*display: inline-block;
+    display: inline-block;
     width: 100%;
     height: 100%;
     position: relative;
-    bottom:25px;*/
+    bottom:25px;
 
-}
+}*/
 
 
-.mySlides { 
+/*.mySlides { 
     
-    /*padding:0;
+    padding:0;
     margin:0;
     width: auto;
     height: 100%;
     position: relative;
     left: 300px;
-    bottom:0px;*/
-}
+    bottom:0px;
+}*/
 .boton {
     display:flex;
     justify-content: space-between;
-    top: 50px;
+    position: relative;
+    bottom: 269px;
+    
 }
-.w3-button_w3-black_w3-display-left {
+/*.w3-button_w3-black_w3-display-left {
     margin: 0;
     padding: 4px;
     position: relative;
@@ -126,5 +135,5 @@ a:hover {
     padding: 4px;
      position: relative;
      bottom: 269px;
-     left: 0px;
- }
+    left: 0px;
+ }*/
