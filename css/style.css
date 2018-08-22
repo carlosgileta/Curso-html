@@ -206,3 +206,14 @@ img {
     display: flex;
     height: ;
 }
+.entrada-footer {
+    display: flex;
+    width: 100%;
+    border: 1px white solid;
+    height: 200px;
+}
+
+.case {
+    display:flex;
+    flex:
+}
