@@ -207,6 +207,17 @@ img {
     text-indent: 50px;
     line-height: 1.5;
 }
+.container-inicio3{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.container-mapa {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
 
 footer {
@@ -275,3 +286,5 @@ footer .entrada1 p {
     align-items: flex-end;
     justify-content: center;
 }
+
+.logoA:hover 
