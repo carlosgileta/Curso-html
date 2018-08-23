@@ -1,6 +1,8 @@
 body, html{
+  display: flex;
     height: 100%;
     font-family: 'Libre Baskerville', serif;
+r
 }
 
 .container {
@@ -130,6 +132,7 @@ img {
     flex-wrap: wrap;
     margin-bottom: 30px;
    /* border: 1px white solid;*/
+
     
 }
 
@@ -138,19 +141,19 @@ img {
     width: 100%;
     flex-direction: column;
     align-items: center;
-   /*border:  1px white solid;*/
-    flex: 2;
+    /*border:  1px white solid;*/
+    flex: 2; 
     color: white;
     min-width: 200px;
-    
     padding: 20px;
+
 }
 
 .fotos p {
     text-align: justify;
     line-height: 1.5;
     padding: 20px;
-    font-size: 20px;
+    font-size: 1.8vw;
 }
 
 .conatiner-historia {
@@ -159,6 +162,7 @@ img {
     min-width: 200px;
     flex-wrap: wrap;
     margin-bottom: 30px;
+
    
 }
 
@@ -167,6 +171,8 @@ img {
     color: white;
     flex: 2;
     padding: 20px;
+    width: 100%;
+    height: auto;
 }
 .estilo-historia {
     display: flex;
@@ -175,7 +181,7 @@ img {
     text-align: justify;
     flex: 1;
     padding: 30px;
-    font-size: 20px;
+    font-size: 1.9vw;
     text-indent: 50px;
     line-height: 1.5;
 }
