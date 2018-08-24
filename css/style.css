@@ -1,6 +1,6 @@
 body, html{
   display: flex;
-    height: 100%;
+   flex-wrap: wrap;
     font-family: 'Libre Baskerville', serif;
 r
 }
@@ -17,7 +17,9 @@ body {
     background-color: black;
 }
 header{
-    height: 9.4em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
     border: 1px white solid;
     background-color: #222c15; /*#2a2f21;*/ /*#0B1F08*/
 }
@@ -63,6 +65,7 @@ header{
      margin: 3px 150px 0px 150px;
  }
 
+   
  
  .encabezado2{
     display: flex;
@@ -74,13 +77,45 @@ header{
      display: flex;
      flex-wrap: wrap;
      width: 100%;
-     
      justify-content: space-around;
      font-size: 50px;
      margin: 0;
     
  }
-
+@media screen and (max-width: 951px) {
+     h1 { display:flex;
+        flex-wrap:wrap;
+        width:100%;
+        font-size:22px;
+        padding: 5px 0;
+     }
+     footer .logo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 133px;
+     }
+     footer .entrada1 p {
+         font-size: 2px;
+     }
+     .fotos p {
+         font-size: 14px;
+     }
+     .estilo-ubicacion  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        flex: 1;
+        padding: 30px;
+        font-size: 16px;
+        text-indent: 50px;
+        line-height: 1.5;
+     }
+     .estilo-historia {
+         font-size:14px;
+     }
+}
  .negro  {
     display: flex;
     align-items: flex-start;
@@ -306,4 +341,3 @@ footer .entrada1 p {
     justify-content: center;
 }
 
-.logoA:hover 
