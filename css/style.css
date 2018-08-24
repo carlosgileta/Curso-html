@@ -21,6 +21,19 @@ header{
     border: 1px white solid;
     background-color: #222c15; /*#2a2f21;*/ /*#0B1F08*/
 }
+
+.ir-arriba {
+   display: inline-block;
+   padding: 20px;
+   font-size: 20px;
+   cursor: pointer;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   width: 40px;
+   height: 25px;;
+}
+ 
  
 
 .encabezado1 {
